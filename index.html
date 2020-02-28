@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>NewDesk - Sistema de Chamados</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="style/main.css"/>
+        <link rel="stylesheet" href="style/custom-min.css">
+    </head>
+    <body>
+        <main>
+            <div class="row">
+                <div class="col s12">
+                    <div class="box #f5f5f5 grey lighten-4">
+                        <div class="logo">
+                            <img src="images/logo-off.png" alt="UNCISAL">
+                        </div>
+                        <div class="formulario">
+                            <div class="row">
+                                <form class="col s12">
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <i class="material-icons prefix">perm_identity</i>
+                                            <input id="icon_prefix" type="text" class="validate">
+                                            <label for="icon_prefix">Usuário</label>
+                                        </div>
+                                        <div class="input-field col s12">
+                                            <i class="material-icons prefix">lock_outline</i>
+                                            <input id="icon_telephone" type="password" class="validate">
+                                            <label for="icon_telephone">Senha</label>
+                                        </div>
+                                        <div class="input-field col s12">
+                                            <input type="checkbox" class="filled-in" id="filled-in-box" />
+                                            <label for="filled-in-box" class="lembrar-senha--direito">Lembrar Senha</label>
+                                        </div>
+                                        <div class="col s12 enviar-dados">
+                                            <a href="painel.html" class="enviar-dados--btn waves-effect waves-light">Acessar</a>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="ajuda">
+                            <div class="col s5">
+                                <p>
+                                    <a class="tooltipped" data-position="top" data-delay="50" data-tooltip="Entre em contato com o suporte técnico!">Esqueceu a senha?</a>
+                                </p>
+                            </div>
+                            <div class="col s7 controle">
+                                <p>Suporte técnico: (82) 99616-2100</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>

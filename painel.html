@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Painel Administrador</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="style/main.css"/>
+        <link rel="stylesheet" href="style/custom-min.css">
+    </head>
+    <body>
+        <header>
+            <ul id="dropdown1" class="dropdown-content">
+                <li><a href="mudar-senha.html">Mudar Senha</a></li>
+                <li class="divider"></li>
+                <li><a href="index.html">Sair</a></li>
+            </ul>
+            <div class="navbar-fixed">
+                <nav class="#eceff1 blue-grey lighten-5">
+                    <div class="nav-wrapper container">
+                        <a href="painel.html" class="brand-logo">
+                            <img class="img-logo" style="margin-top: 12px;" src="images/logo-without-desc.png">
+                        </a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><img class="circle responsive " width="35" src="images/profile.jpg" style="margin-top: 15px;"></li>
+                            <li><a class="dropdown-button" href="#!" data-activates="dropdown1" style="color: black">Lucas Alves<i class="material-icons right">arrow_drop_down</i></a></li>
+                        </ul>
+                        <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main class="painel">
+            <div class="row">
+                <div class="container">
+                    <div class="col s12">
+                        <div class="col s12 l3 box-painel--op painel-op1">
+                            <div class="col s4">
+                                <i class="large material-icons">access_time</i>
+                            </div>
+                            <div class="col s8">
+                                <h4>06</h4>
+                                <p>Chamados Aguardando Atendimento</p>
+                            </div>
+                        </div>
+                        <div class="col s12 l3 box-painel--op painel-op2">
+                            <div class="col s4">
+                                <i class="large material-icons">thumb_up</i>
+                            </div>
+                            <div class="col s8">
+                                <h4>160</h4>
+                                <p>Chamados Solucionados</p>
+                            </div>
+                        </div>
+                        <div class="col s12 l3 box-painel--op painel-op3">
+                            <div class="col s4">
+                                <i class="large material-icons">chat</i>
+                            </div>
+                            <div class="col s8">
+                                <h4>02</h4>
+                                <p>Solicitações de Chat</p>
+                            </div>
+                        </div>
+                        <div class="col s12 l3 box-painel--op painel-op4">
+                            <div class="col s4">
+                                <i class="large material-icons">sentiment_very_satisfied</i>
+                            </div>
+                            <div class="col s8">
+                                <h4>03</h4>
+                                <p>Chamados em Atendimento</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container">
+                    <div class="col s12">
+                        <div class="col s12 l8 menu-painel">
+                            <p>Painel Administrador</p>
+                            <span class="title-line"></span>
+                            <div class="row">
+                                <div class="container">
+                                    <div class="col s12">
+                                        <div class="col s12 l6 ">
+                                            <div class="row">
+                                                <a class="col s12 menu-painel--op" href="resumo.html">
+                                                    <i class="large material-icons">computer</i>
+                                                    <p>Situações dos Chamados</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col s12 l6">
+                                            <div class="row">
+                                                <a class="col s12 menu-painel--op" href="usuarios.html">
+                                                    <i class="large material-icons">supervisor_account</i>
+                                                    <p>Usuários</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="container">
+                                    <div class="col s12">
+                                        <div class="col s12 l6">
+                                            <div class="row">
+                                                <a class="col s12 menu-painel--op" href="#">
+                                                    <i class="large material-icons">data_usage</i>
+                                                    <p>Relatórios</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col s12 l6">
+                                            <div class="row">
+                                                <a class="col s12 menu-painel--op" href="atendimentos.html">
+                                                    <i class="large material-icons">chat_bubble</i>
+                                                    <p>Atendimentos</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s3 offset-s1 menu-painel noticias hide-on-med-and-down">
+                            <div class="row">
+                                <div class="col s12">
+                                    <p>Últimos atendimentos finalizados</p>
+                                    <span class="title-line"></span>
+                                    <div class="card-panel teal">
+                                        Chamado nº: 1580<br>Finalizado em: 28/02/2020
+                                    </div>
+                                </div>
+                                <div class="col s12">
+                                    <div class="card-panel teal">
+                                        Chamado nº: 1579<br>Finalizado em: 28/02/2020
+                                    </div>
+                                </div>
+                                <div class="col s12">
+                                    <div class="card-panel teal">
+                                        Chamado nº: 1578<br>Finalizado em: 26/02/2020
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="row rodape blue-grey darken-4 white-text center">
+            <div class="col s12 container">
+                2020  © Lucas Alves Arcanjo - Projeto do TCC - Estácio/AL
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
